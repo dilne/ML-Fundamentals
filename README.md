@@ -10,6 +10,15 @@ Using k-Nearest Neighbours to predict the iris type using features of the plant
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+## Naive Bayes on Iris Dataset
+Using Naive Bayes to predict the iris type using features of the plant
+
+[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/Naive%20Bayes%20-%20Iris.ipynb)
+
+<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/Naive%20Bayes%20-%20Iris.ipynb" target="_blank">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 ## Linear Regression on USA Housing Dataset
 Using linear regression to predict house prices on the USA Housing Dataset
 
