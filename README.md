@@ -4,9 +4,9 @@
 ## 🌼k-NN on Iris Dataset
 Using k-Nearest Neighbours to predict the iris type using features of the plant
 
-[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris/k-NN%20-%20Iris.ipynb)
+[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris.ipynb)
 
-<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris/k-NN%20-%20Iris.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
