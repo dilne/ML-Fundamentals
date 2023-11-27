@@ -1,16 +1,18 @@
 <h1 align="center">🤖ML Fundamentals</h1>
-<p align="center">k-NNs, Linear Regression, Logistic Regression, SVM, Decision Trees, Random Forest Regressor, XGBOOST, Naive Bayes</p>
+<p align="center">The following details and explains performing classification on the Iris dataset using a range of ML models:</br>
+k-NNs, Naive Bayes, Stochastic Gradient Descent, Decision Trees, Random Forest, SVM, Logistic Regression, Neural Nets</br></br>
+I similarly do the same for regression on the USA House Pricing dataset using:</br>Linear Regression (and soon more)</p>
 
-## 🌼k-NN on Iris Dataset
-Using k-Nearest Neighbours to predict the iris type using features of the plant
+# 🌼Classification on Iris Dataset
+All content for classification on the Iris dataset can be found in the following notebook:
 
-[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris.ipynb)
+[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/Iris%20Classification.ipynb)
 
-<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/Iris%20Classification.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-### Dataset
+## Dataset
 The iris dataset comprises three different irises each with 3 different features, petal length, petal width, sepal width, and sepal length. Some EDA is performed using a simple pairplot to provide an indication of any groupings in the dataset.
 
 <div align="center">
@@ -18,6 +20,9 @@ The iris dataset comprises three different irises each with 3 different features
     <img src="https://github.com/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris/Pairplot.png" alt="k-NN Pairplot" style="height:200px;"/>
   </a>
 </div>
+
+## 1⃣️k-NN
+Using k-Nearest Neighbours to predict the iris type using features of the plant
 
 ### Optimimum k
 
@@ -42,32 +47,12 @@ Iris-versicolor       1.00      1.00      1.00        19
       macro avg       1.00      1.00      1.00        45
    weighted avg       1.00      1.00      1.00        45
 ```
-<div align="center">
-  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris/Confusion%20matrix.png" target="_blank">
-    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris/Confusion%20matrix.png" alt="Finding the beset K" style="height:200px;"/>
-  </a>
-</div>
 
-## 🌼Naive Bayes on Iris Dataset
+## 2⃣️Naive Bayes
 Using Naive Bayes to predict the iris type using features of the plant
 
-[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/Naive%20Bayes%20-%20Iris.ipynb)
-
-<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/Naive%20Bayes%20-%20Iris.ipynb" target="_blank">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
-### Dataset
-The iris dataset comprises three different irises each with 3 different features, petal length, petal width, sepal width, and sepal length. Some EDA is performed using a simple pairplot to provide an indication of any groupings in the dataset.
-
-<div align="center">
-  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/Naive%20Bayes%20-%20Iris/Pairplot.png" target="_blank">
-    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/Naive%20Bayes%20-%20Iris/Pairplot.png" alt="k-NN Pairplot" style="height:200px;"/>
-  </a>
-</div>
-
 ### Results
-The accuracy of the Naive Bayes model is high, but is not perfect like the k-NN model used in the above notebook:
+The accuracy of the Naive Bayes model is high, but is not perfect:
 ```
               precision    recall  f1-score   support
 
@@ -79,13 +64,104 @@ The accuracy of the Naive Bayes model is high, but is not perfect like the k-NN 
    macro avg       0.98      0.97      0.97        45
 weighted avg       0.98      0.98      0.98        45
 ```
-<div align="center">
-  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/Naive%20Bayes%20-%20Iris/Confusion%20matrix.png" target="_blank">
-    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/Naive%20Bayes%20-%20Iris/Confusion%20matrix.png" alt="Finding the beset K" style="height:200px;"/>
-  </a>
-</div>
 
-## 🏡Linear Regression on USA Housing Dataset
+## 3⃣️Stochastic Gradient Descent
+Using Stochastic Gradient Descent to predict the iris type using features of the plant
+
+### Results
+```
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00        19
+           2       1.00      0.69      0.82        13
+           3       0.76      1.00      0.87        13
+
+    accuracy                           0.91        45
+   macro avg       0.92      0.90      0.89        45
+weighted avg       0.93      0.91      0.91        45
+```
+
+## 4⃣️Decision Tree
+Using a Decision Tree to predict the iris type using features of the plant
+
+### Results
+```
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00        19
+           2       1.00      1.00      1.00        13
+           3       1.00      1.00      1.00        13
+
+    accuracy                           1.00        45
+   macro avg       1.00      1.00      1.00        45
+weighted avg       1.00      1.00      1.00        45
+```
+
+## 5⃣️Random Forest
+Using a Random Foreste to predict the iris type using features of the plant
+
+### Results
+```
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00        19
+           2       1.00      1.00      1.00        13
+           3       1.00      1.00      1.00        13
+
+    accuracy                           1.00        45
+   macro avg       1.00      1.00      1.00        45
+weighted avg       1.00      1.00      1.00        45
+```
+
+## 6⃣️Support Vector Machine (SVM)
+Using an SVM to predict the iris type using features of the plant
+
+### Results
+```
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00        19
+           2       1.00      1.00      1.00        13
+           3       1.00      1.00      1.00        13
+
+    accuracy                           1.00        45
+   macro avg       1.00      1.00      1.00        45
+weighted avg       1.00      1.00      1.00        45
+```
+
+## 7⃣️Logistic Regression
+Using Logistic Regression to predict the iris type using features of the plant
+
+### Results
+```
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00        19
+           2       1.00      1.00      1.00        13
+           3       1.00      1.00      1.00        13
+
+    accuracy                           1.00        45
+   macro avg       1.00      1.00      1.00        45
+weighted avg       1.00      1.00      1.00        45
+```
+
+## 8⃣️lbfgs Neural Network
+Using a Neural Network with an lbfgs optimsed to predict the iris type using features of the plant
+
+### Results
+```
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00        19
+           2       0.93      1.00      0.96        13
+           3       1.00      0.92      0.96        13
+
+    accuracy                           0.98        45
+   macro avg       0.98      0.97      0.97        45
+weighted avg       0.98      0.98      0.98        45
+```
+
+# 🏡Linear Regression on USA Housing Dataset
 Using linear regression to predict house prices on the USA Housing Dataset
 
 [Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/Linear%20Regression%20-%20USA%20Housing.ipynb)
