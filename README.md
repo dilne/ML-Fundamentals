@@ -6,9 +6,9 @@ I similarly do the same for regression on the USA House Pricing dataset using:</
 # 🌼Classification on Iris Dataset
 All content for classification on the Iris dataset can be found in the following notebook:
 
-[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/Iris%20Classification.ipynb)
+[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/Notebooks/Iris%20Classification.ipynb)
 
-<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/Iris%20Classification.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/Notebooks/Iris%20Classification.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -16,8 +16,8 @@ All content for classification on the Iris dataset can be found in the following
 The iris dataset comprises three different irises each with 3 different features, petal length, petal width, sepal width, and sepal length. Some EDA is performed using a simple pairplot to provide an indication of any groupings in the dataset.
 
 <div align="center">
-  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris/Pairplot.png" target="_blank">
-    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris/Pairplot.png" alt="k-NN Pairplot" style="height:200px;"/>
+  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/Images/Iris/Pairplot.png" target="_blank">
+    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/Images/Iris/Pairplot.png" alt="Iris Pairplot" style="height:200px;"/>
   </a>
 </div>
 
@@ -28,8 +28,8 @@ Using k-Nearest Neighbours to predict the iris type using features of the plant
 
 When using a k-NN model, it can be useful to find the optimum k number. The model is trained for a k from 1 to 40 and it was found that the best k number for this dataset is 4.
 <div align="center">
-  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris/K.png" target="_blank">
-    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/k-NN%20-%20Iris/K.png" alt="Finding the beset K" style="height:200px;"/>
+  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/Images/Iris/K.png" target="_blank">
+    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/Images/Iris/K.png" alt="Finding the best K" style="height:200px;"/>
   </a>
 </div>
 
@@ -164,9 +164,9 @@ weighted avg       0.98      0.98      0.98        45
 # 🏡Linear Regression on USA Housing Dataset
 Using linear regression to predict house prices on the USA Housing Dataset
 
-[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/Linear%20Regression%20-%20USA%20Housing.ipynb)
+[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/Notebooks/Linear%20Regression%20-%20USA%20Housing.ipynb)
 
-<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/Linear%20Regression%20-%20USA%20Housing.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/Notebooks/Linear%20Regression%20-%20USA%20Housing.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -174,8 +174,8 @@ Using linear regression to predict house prices on the USA Housing Dataset
 This USA housing dataset is a limited version of the official dataset. It contains 5,000 samples of house prices with their corresponding Avg. Area Income, Avg. Area House Age, Avg. Area Number of Rooms, Avg. Area Number of Bedrooms, Area Population, and Address.
 
 <div align="center">
-  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/Linear%20Regression%20-%20USA%20Housing/Pairplot.png" target="_blank">
-    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/Linear%20Regression%20-%20USA%20Housing/Pairplot.png" alt="k-NN Pairplot" style="height:200px;"/>
+  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/Images/USA%20Housing/Pairplot.png" target="_blank">
+    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/Images/USA%20Housing/Pairplot.png" alt="USA Housing Pairplot" style="height:200px;"/>
   </a>
 </div>
 
@@ -190,8 +190,8 @@ Mean Absolute Percentage Error: 7.3878388597543685%
 ```
 
 <div align="center">
-  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/Linear%20Regression%20-%20USA%20Housing/Predictions.png" target="_blank">
-    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/Linear%20Regression%20-%20USA%20Housing/Predictions.png" alt="k-NN Pairplot" style="height:200px;"/>
+  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/Images/USA%20Housing/Predictions.png" target="_blank">
+    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/Images/USA%20Housing/Predictions.png" alt="Linear Regression" style="height:200px;"/>
   </a>
 </div>
 
