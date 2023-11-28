@@ -1,7 +1,7 @@
 <h1 align="center">🤖ML Fundamentals</h1>
 <p align="center">The following details and explains performing classification on the Iris dataset using a range of ML models:</br>
 k-NNs, Naive Bayes, Stochastic Gradient Descent, Decision Trees, Random Forest, SVM, Logistic Regression, Neural Nets</br></br>
-I similarly do the same for regression on the USA House Pricing dataset using:</br>Linear Regression (and soon more)</p>
+I similarly do the same for regression on the USA House Pricing dataset using:</br>Linear Regression (and soon Polynomial Regression, Support Vector Regression (SVR), Random Forest Regression, Regularised regression models (Ridge, Lasso)</p>
 
 # 🌼Classification on Iris Dataset
 All content for classification on the Iris dataset can be found in the following notebook:
