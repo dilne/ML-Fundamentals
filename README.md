@@ -160,38 +160,3 @@ Using a Neural Network with an lbfgs optimsed to predict the iris type using fea
    macro avg       0.98      0.97      0.97        45
 weighted avg       0.98      0.98      0.98        45
 ```
-
-# 🏡Linear Regression on USA Housing Dataset
-Using linear regression to predict house prices on the USA Housing Dataset
-
-[Notebook](https://github.com/dilne/ML-Fundamentals/blob/main/Notebooks/Linear%20Regression%20-%20USA%20Housing.ipynb)
-
-<a href="https://colab.research.google.com/github/dilne/ML-Fundamentals/blob/main/Notebooks/Linear%20Regression%20-%20USA%20Housing.ipynb" target="_blank">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
-### Dataset
-This USA housing dataset is a limited version of the official dataset. It contains 5,000 samples of house prices with their corresponding Avg. Area Income, Avg. Area House Age, Avg. Area Number of Rooms, Avg. Area Number of Bedrooms, Area Population, and Address.
-
-<div align="center">
-  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/Images/USA%20Housing/Pairplot.png" target="_blank">
-    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/Images/USA%20Housing/Pairplot.png" alt="USA Housing Pairplot" style="height:200px;"/>
-  </a>
-</div>
-
-### Results
-The linear regression model worked fairly well, providing a high R^2 score and low MAE percentage:
-```
-R^2 Score: 0.9179971706834331
-Mean Absolute Error: 80879.09723489445
-Mean Squared Error: 10089009300.893993
-Root Mean Squared Error: 100444.06055558483
-Mean Absolute Percentage Error: 7.3878388597543685%
-```
-
-<div align="center">
-  <a href="https://github.com/dilne/ML-Fundamentals/blob/main/Images/USA%20Housing/Predictions.png" target="_blank">
-    <img src="https://github.com/dilne/ML-Fundamentals/blob/main/Images/USA%20Housing/Predictions.png" alt="Linear Regression" style="height:200px;"/>
-  </a>
-</div>
-
