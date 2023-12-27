@@ -145,7 +145,7 @@ Using Logistic Regression to predict the iris type using features of the plant
 weighted avg       1.00      1.00      1.00        45
 ```
 
-## 8⃣️lbfgs Neural Network
+## 8⃣️L-BFGS Neural Network
 Using a Neural Network with an lbfgs optimsed to predict the iris type using features of the plant
 
 ### Results
